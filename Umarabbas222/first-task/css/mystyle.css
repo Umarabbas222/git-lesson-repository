@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+body {
+    font-family: 'Inconsolata', courier;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 200;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 20px;
+    padding: 70px;
+    margin: 0;
+    background-image: url("bg.png");
+  }
+  /*adding Seperator*/
+  hr.dashed {
+    margin-top: 20px; 
+    position: relative;
+    border-top: 5px dashed #bbb;
+    width: 30px;
+  }
+   /*adding navigation bar*/
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: #ff0099;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #f7f7f7;
+  }
+        h1 {
+    font-size: 2.5em;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: -.03em;
+    margin: 0;
+    padding: 0;
+  } 
